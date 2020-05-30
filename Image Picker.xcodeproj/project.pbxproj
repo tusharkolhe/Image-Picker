@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713AAF4324825F8C003C9A17 /* placeholder-profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713AAF4224825F8C003C9A17 /* placeholder-profile.jpg */; };
 		716CE81A2482248100513E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716CE8192482248100513E50 /* AppDelegate.swift */; };
 		716CE81C2482248100513E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716CE81B2482248100513E50 /* ViewController.swift */; };
 		716CE81F2482248100513E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716CE81D2482248100513E50 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		713AAF4224825F8C003C9A17 /* placeholder-profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder-profile.jpg"; sourceTree = "<group>"; };
 		716CE8162482248100513E50 /* Image Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716CE8192482248100513E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716CE81B2482248100513E50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				716CE8192482248100513E50 /* AppDelegate.swift */,
 				716CE81B2482248100513E50 /* ViewController.swift */,
+				713AAF4224825F8C003C9A17 /* placeholder-profile.jpg */,
 				716CE81D2482248100513E50 /* Main.storyboard */,
 				716CE8202482248400513E50 /* Assets.xcassets */,
 				716CE8222482248400513E50 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 				716CE8242482248400513E50 /* LaunchScreen.storyboard in Resources */,
 				716CE8212482248400513E50 /* Assets.xcassets in Resources */,
 				716CE81F2482248100513E50 /* Main.storyboard in Resources */,
+				713AAF4324825F8C003C9A17 /* placeholder-profile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
 				INFOPLIST_FILE = "Image Picker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
 				INFOPLIST_FILE = "Image Picker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

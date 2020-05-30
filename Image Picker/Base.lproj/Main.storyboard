@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cge-p2-WH8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-profile.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cge-p2-WH8">
                                 <rect key="frame" x="94" y="112" width="187.5" height="187.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cge-p2-WH8" secondAttribute="height" multiplier="1:1" id="fMq-rY-8WE"/>
@@ -32,9 +32,12 @@
                                     <constraint firstAttribute="width" secondItem="gda-m1-LCi" secondAttribute="height" multiplier="4:1" id="gp7-jh-Lmi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Upload Photo">
+                                <state key="normal" title="Choose Image">
                                     <color key="titleColor" red="0.02940226349" green="0.035717452570000002" blue="0.57674153650000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="chooseImageBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UAs-i4-KbC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,10 +50,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnChooseImage" destination="gda-m1-LCi" id="SGh-Ah-aPy"/>
+                        <outlet property="profileImage" destination="cge-p2-WH8" id="fa1-xQ-uxO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="placeholder-profile.jpg" width="600" height="623"/>
+    </resources>
 </document>
